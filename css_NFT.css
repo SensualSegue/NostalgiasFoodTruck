@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+	width: 100%;
+	top: 0px;
+	padding: 1em;
+	position: fixed;
+}
+
+li {
+	display: inline-block;
+}
+
+body {
+	background: #FBF56A;
+	background-size: cover;
+}
+
+h1 {
+	text-align: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+h2 {
+	text-align: center;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.site_nav {
+	background-color: #FFF752;
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	width: 100%;
+}
+
+.site_nav a{
+	text-decoration: none;
+	display: block;
+	color: #880000;
+	text-align: center;
+	padding: 0.35em;
+	font-size: 18px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+}
+
+
+.site_nav a:hover{
+	background: #880000;
+	color: #FFF752
+}
+
+.main {
+	margin-top: 75px;
+	font-size: 1.25em;
+	padding: 0.5em;
+	color: #880000;
+}
+
+.main img {
+	height: 250px;
+	float: right;
+}
+
+.footer {
+	text-align: center;
+	font-style: italic;
+	font-size: 0.75em;
+	padding: 2em;
+	display: block;
+}
